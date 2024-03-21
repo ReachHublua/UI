@@ -733,7 +733,7 @@ function library:CreateWindow(options, ...)
 	main.BorderColor3 = library.colors.outerBorder
 	colored[1 + #colored] = {main, "BorderColor3", "outerBorder"}
 	main.Position = UDim2.fromScale(0.5, 0.5)
-	main.Size = UDim2.fromOffset(500, 545)
+	main.Size = UDim2.fromOffset(500, 355)
 	makeDraggable(main, main)
 	mainBorder.Name = "mainBorder"
 	mainBorder.Parent = main
@@ -5952,7 +5952,7 @@ library.W = library.CreateWindow
 local Wait = library.subs.Wait
 
 local PepsiUi = library:CreateWindow({
-    Name = "Ui Name",
+    Name = "sky HUB",
     Theme = {
         Image = "rbxassetid://7483871523",
         Info = "Info",
@@ -5963,11 +5963,11 @@ local PepsiUi = library:CreateWindow({
 })
 
 local Page = PepsiUi:CreateTab({
-    Name = "Page Name"
+    Name = "General"
 })
 
 local TestTab = Page:CreateSection({
-    Name = "Tab Name", -- ชื่อ
+    Name = "Level", -- ชื่อ
     Side = "Left" -- ตำแหน่ง Left/Right
 })
 
@@ -6031,5 +6031,7 @@ TestTab:AddButton({
         -- Script
     end
 })
+
+
 
 return library, library_flags, library.subs
