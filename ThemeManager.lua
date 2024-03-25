@@ -5,8 +5,8 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Reach Hub'] 	= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"F40000","BackgroundColor":"141414","OutlineColor":"323232"}') },
-		['Green'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000F1E","AccentColor":"F40000","BackgroundColor":"050514","OutlineColor":"323232"}') },
+		['Reach Hub'] 	= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000F1E","AccentColor":"F40000","BackgroundColor":"050514","OutlineColor":"323232"}') },
+		['..'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000F1E","AccentColor":"F40000","BackgroundColor":"050514","OutlineColor":"323232"}') },
 		['Jester'] 			= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Mint'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Ubuntu'] 			= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
